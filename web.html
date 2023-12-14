@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+   <head>
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+     <title>bootive</title>
+     <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+<section id="home" class="home">
+          <div class=header>
+            <img class="logo" src="Logo.png">
+            <div class="nav-bar">
+              <p onclick="scrollToSection('home')">Home</p>
+              <p onclick="scrollToSection('about')">About Us</p>
+              <p onclick="scrollToSection('skills')">Skills</p>
+          </div>
+          
+          </div>
+    <hr>
+          <div  class="content">
+              <h1>Bootive:</h1>
+              <div class="main-content">
+                <img class="my-pic" src="DP.jpg">
+              <p class="words">
+                  Hey Everyone,This is Bootive Who created this Website.
+                  This is First My website.<br>I created this website by using html,css and javascript .Thanks for visiting my Website.
+              </p>
+              </div>
+              
+              <button>Explore Now</button>
+              <div class="decor">
+              <p class="line1"> </p>
+              <p class="line2"> </p>
+              <p class="line3" id="about" > </p>
+              </div>
+          </div>
+    
+<hr>
+       
+</section>
+
+<section class=about>
+    <div  class="content">
+      <h1>About Me</h1>
+        <div class="main-content">
+           <img class="my-pic" src="2.jpg">
+           <p class="words">
+               I'm a 18 year old guy.now i'm learning Web developement.<br>During this learning part i created this website.
+            </p>
+       </div>
+      
+      <p class="quote">
+         "There is no good time to learn something,<br>The Good time will come when you learn something."<br><span class="author">~Bootive</span>.
+      </p>
+
+              
+    </div>
+<hr>  
+</section>
+<div class="link">
+   <img class="social-logo" src="instagram (1).png" >
+   <a href="https://www.instagram.com/steve__z_/" class="idname">Mahesh Boopathi K</a>
+</div>
+    <section  class="skills">
+
+        <div id="skills" class="content">
+        <h1>Skills that I'm Learned in this process:</h1>
+          <div class="skill-row">     
+            <div class="skill-col">
+                <div class="skill">
+                <img class="skill-logo" src="skill1.png">
+                <p>- HTML</p>
+                </div>
+                
+                <div class="skill">
+                <img class="skill-logo" src="skill2.png">
+                <p>- Css</p>
+                </div>
+                
+                <div class="skill">
+                <img class="skill-logo" src="skill3.png">
+                <p>- JavaScript</p>
+                </div>
+            </div>
+            <div class="skill-col">
+              <div class="skill">
+                <img class="skill-logo" src="py.png">
+                <p>- Pyhton</p>
+                </div>
+                <div class="skill">
+                <img class="skill-logo" src="skill4.png">
+                <p>- Adobe Photoshop</p>
+                </div>
+                <div  class="skill">
+                <img  class="skill-logo" src="skill5.png">
+                <p>- Adobe Illutrator</p>
+                </div>
+            </div>
+         </div>    
+        </div>   
+    </section>   
+<hr>       
+       
+<script>
+  function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+      });
+  }
+</script>
+
+       
+
+   </body>
+</html>
